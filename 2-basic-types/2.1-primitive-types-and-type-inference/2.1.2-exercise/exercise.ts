@@ -4,15 +4,19 @@
 
 // 1. string 타입의 변수 `planet`을 선언하고 값으로 `'지구'`를 할당하세요.
 
-const planet: string = '지구'
+let planet = '지구'
+// const planet = '지구'
 // const planet: string = 3
 // 2. boolean 타입의 변수 `isRaining`을 선언하고 값으로 `false`를 할당하세요.
 
-const isRaining: boolean = false
+let isRaining = false
+// const isRaining = false
 // 3. number 타입의 상수 `PI`를 선언하고 값으로 `3.141592`를 할당하세요.
 
-const PI: number = 3.141592
+let PI = 3.141592
+// const PI = 3.141592
 // 4. 위에서 선언한 변수 중 하나에 잘못된 타입의 값을 할당해보세요. 어떤 일이 발생하나요?
 
 
 // 5. 위의 명시적 타입 선언을 모두 제거한 뒤, 각 변수 이름에 마우스를 올려보세요. 무엇이 달라지나요?
+// let으로 선언시 타입이 추론되며, const로 선언시에는 따로 타입이 추론되어 나타나지는 않음
