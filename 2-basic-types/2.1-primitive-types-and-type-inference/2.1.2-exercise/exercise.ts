@@ -4,13 +4,13 @@
 
 // 1. string 타입의 변수 `planet`을 선언하고 값으로 `'지구'`를 할당하세요.
 
-
+const planet: string = '지구'
 // 2. boolean 타입의 변수 `isRaining`을 선언하고 값으로 `false`를 할당하세요.
 
-
+const isRaining: boolean = false
 // 3. number 타입의 상수 `PI`를 선언하고 값으로 `3.141592`를 할당하세요.
 
-
+const PI: number = 3.141592
 // 4. 위에서 선언한 변수 중 하나에 잘못된 타입의 값을 할당해보세요. 어떤 일이 발생하나요?
 
 
