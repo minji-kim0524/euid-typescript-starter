@@ -5,6 +5,7 @@
 // 1. string 타입의 변수 `planet`을 선언하고 값으로 `'지구'`를 할당하세요.
 
 const planet: string = '지구'
+// const planet: string = 3
 // 2. boolean 타입의 변수 `isRaining`을 선언하고 값으로 `false`를 할당하세요.
 
 const isRaining: boolean = false
