@@ -3,7 +3,7 @@
 // --------------------------------------------------------------------------
 
 // 1. 이 함수가 `never`를 반환하도록 타입을 지정하세요.
-function error(message: string) {
+function error(message: string): never {
   throw new Error(message)
 }
 
@@ -29,6 +29,7 @@ function describeUser(user: User): string {
       return `게스트의 방문 횟수는 ${user.visitCount}번 입니다.`
     // 여기서 `never` 타입을 사용해 모든 경우를 처리했는지 확인할 수 있습니다.
     default:
-      return ''
+      const check: never = user
+      return check
   }
 }
